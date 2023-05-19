@@ -1,0 +1,22 @@
+jk flip flop 
+sr flip flop
+T
+D
+clock (ví dụ cho D và clock, hỏi kết quả là gì)
+
+multiple choice (yes no question)
+5 câu, mỗi câu 20 điểm
+cho clock, input k, yêu cầu vẽ kết quả Q)
+design circuit (compare 3 bit number) 
+design up counter 3 bit synchronous 
+booth algorithm dùng booth algorithm để tính toán 
+
+_____________________________
+
+ECE461 Midterm review
+-Unsigned and Signed Multiplication
+-Booth algorithm
+-Flip-flop
+-NAN
+*Exam module: 5 questions/ 100 minutes
+*Only calculator (no cheat-sheet, no laptop allowed)

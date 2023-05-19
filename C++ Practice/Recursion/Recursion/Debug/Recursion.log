@@ -1,0 +1,5 @@
+﻿  EX01.cpp
+d:\apcs\c++ practice\recursion\recursion\ex01.cpp(27): error C3861: 'printout': identifier not found
+d:\apcs\c++ practice\recursion\recursion\ex01.cpp(50): error C2059: syntax error: ';'
+d:\apcs\c++ practice\recursion\recursion\ex01.cpp(50): error C2059: syntax error: ')'
+d:\apcs\c++ practice\recursion\recursion\ex01.cpp(51): error C2146: syntax error: missing ';' before identifier 'bestitems'

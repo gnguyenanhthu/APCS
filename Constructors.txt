@@ -1,0 +1,54 @@
+*Construcrors
+- Define:
+construct and initialize objects (at the same time)
+run automatically
+no return value
+1 class can have many constructors (overload)
+name constructor and class name are the same
+
+Ex:
+class Fraction
+{
+	void initialize(int a, int b);
+	//these are the constructor
+	Fraction (); //default >>> 0/1
+	Fraction (int t); //t/1
+	Fraction (int n, int d); //n/d
+}
+
+Fraction :: Fraction () {
+	num=0;
+	denom=1;
+}
+
+Fraction :: Fraction (int t) {
+	num=t;
+	denom=1;
+}
+
+Fraction :: Fraction (int n, int d){
+	if(d==0){
+	cout<< "Zero denominator";
+	throw; //sth wrong, can't go further -> stop
+	}
+	num=n;
+	denom=d;
+}
+
+*this pointer
+
+Date :: Date (int iDay, int iMonth, int iYear)
+{
+	this->iDay = iDay;
+}
+
+c=a+b
+Fraction
+1/ ?
+2/ c=a+7
+3/ c=7+a+b+2
+
+
+
+
+

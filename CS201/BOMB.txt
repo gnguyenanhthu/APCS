@@ -1,0 +1,34 @@
+BOMB
+cách debug file bomb
+./bomb để chạy (nó chào mình)
+->Nhập đại sẽ bị nổ cái đùng
+->Phải làm gì đó để ko bị nổ
+
+gdb bomb (debug nó)
+disass main
+
+6 phase <-> 6 hàm
+
+run
+b phase_1
+run (hoặc r cũng đc)
+nhập đại, nó sẽ dừng cho mình check
+xem code thuật ngữ tại phase_1, dùng disass
+có con trỏ ngay phase_1
+
+vd: so sánh chuỗi, nếu đúng thì nó chạy tiếp main, nếu sai thì đùng
+
+
+how to do it?
+link
+./bomb
+gõ linh tinh
+gdb bomb
+disass main
+(enter khi nó có (gdb))
+(gdb) run
+gõ linh tinh
+(gdb) b phase_1
+(gbb) r
+gõ linh tinh
+đã có breakpoint, xem code

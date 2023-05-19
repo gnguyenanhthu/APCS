@@ -1,0 +1,35 @@
+b phase_1
+b strings_not_equal
+run
+nhap chuoi bat ki
+disass
+n (next)
+x/s $rsi (biết trong thanh gi nào thì xem)
+
+x/s(trả về chuỗi)
+x/d(trả về số)
+
+thấy chuỗi r
+copy cái chuỗi
+
+xóa breakpoint
+run từ đầu
+paste->enter
+//phase_1 defuse, how about the next one?
+
+until *a (a: mã, dùng để chạy tới địa chỉ a thì dừng)
+
+có thể ghi đáp án vào file .txt
+./bomb và tên file solution (thì nó sẽ pass qua phase nào mình đã làm đc)
+
+test reg1, reg2 -> reg1 & reg2 để bật cờ ZF
+
+%rip giữ địa chỉ của lệnh hợp ngữ kế đó
+0x99
+0x100 lea %rip
+
+thì %rip=0x100
+
+phase 3
+nhìn giống switch case
+dò hàm nổ bom rồi đi lên

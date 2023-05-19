@@ -1,0 +1,56 @@
+How to use R R
+
+getwd() sdsi //lấy đường link 
+copy file dữ liệu -> thư mục làm việc
+>data<-read.csv("DataExcel.csv",header=TRUE) //đọc file vào
+>data$T1 //xuất giá trị T1
+>data$KT //xuất khối thi
+
++Biểu diễn bằng phương pháp đồ thị
++Quali
+
+*Từng thằng
+-Table -> A A1 B C D1
+>table(data$KT) //nó xuất bảng bé bé
+>bangKT=table(data$KT) //lưu cái bảng
+-Pie
+>pie(bangKT)
+-Barplot
+>barplot(bangKT)
+
+*Mô tả -> Phải nhận xét éc
+-Đa số vào khối A
+-A1 thấp nhất
+
+*2 thằng 1 lúc
+KT,KV
+>bangKTKV<-table(data$KT,data$KV)
+>table(data$KT,dasta$KV)
+//ra bảng tần số đồng thời
+//29 hs kv1 thi khối A, 13 hs kv thi khối D1
+
+>barplot(bangKTKV)
+//nhận xét kv1 nhiều hs đi thi nhất
+
++Quanti
+
+*1 biến
+-hist
+>hist(data$T1) //theo số liệu
+>hist(data$T1,freq=FALSE) //theo density
+-stem and leaf
+>stem($dataT1)
+
+*2 biến
+-plot
+>plot(data$T1,data$T2)
+//đồ thị nhưng chỉ có chấm
+//trái T2, dưới T1
+//mỗi chấm là 1 hs
+//phải nhận xét nhé
+
++Biểu diễn phương pháp số
+>mean(data$T1)
+>median(data$T1)
+>var(data$T1) //có var rồi tìm statistic devitation bằng cách lấy căn
+>sqrt(var(data$T1))

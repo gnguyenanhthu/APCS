@@ -1,0 +1,5 @@
+﻿  XLSV.cpp
+d:\apcs\c++ practice\xep loai sinh vien\xep loai sinh vien\xlsv.cpp(4): warning C4273: 'round': inconsistent dll linkage
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_math.h(532): note: see previous definition of 'round'
+d:\apcs\c++ practice\xep loai sinh vien\xep loai sinh vien\xlsv.cpp(12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\apcs\c++ practice\xep loai sinh vien\xep loai sinh vien\xlsv.cpp(7): fatal error C1075: the left brace '{' was unmatched at the end of the file

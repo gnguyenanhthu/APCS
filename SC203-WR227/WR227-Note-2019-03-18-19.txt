@@ -1,0 +1,91 @@
+Experimental Results
+- Figure
+- Table
+- Explain
+
+Conclusion
+- Summary
+- Open questions for future work
+
+Full paper submission:
+Abstract
+1) Introduction
+2) Background & RW
+3) Proposed Method/Process
+4) Experimental Results
+5) Conclusion
+Reference
+
+
+
+Paper Submission
+- Submit your abstract (if applicable) or draft paper before the deadline, and expect to update your paper (even when THEY may not officially announce the extension for update)
+- From the past --> predict your future
+- Wait until the end of the week
+
+Paper Review:
+- Blind Review
+- 2+ Reviewers
+- 
+
+Guideline:
+1) Title:
+- There is NO "THE"
+- Full name, Affiliation, Email
+
+2) Abstract:
+- NO Citation
+- NO need to explain ABbrevation
+- 4+1 parts (ideas) in the abstract
+
+3) Introduction:
+- Content Outline
+- Too long/short paragraphs
+- Enough citations?
+- Plagiarism?
+- 5 parts (overview, related work, motivation, objective, result)
+
+4) Background and Related Work:
+- Citation!
+
+5) Method/Process:
+- Overview + Figure
+- Easy to understand?
+- Figure/Table must be cited/referenced in the main text
+
+6) Experimental Results:
+- Figure/Table must be cited/referenced in the main text
+- Each figure/table must have an explanation
+
+7) Conclusion:
+- Summary
+- Open problems
+
+References:
+>=8 or 10 items
+at least 30% NEW/UP-TO-DATE items
+Unreferenced items?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

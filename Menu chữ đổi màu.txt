@@ -1,0 +1,49 @@
+int *a, *b, *b1;
+a = new int[1000];
+b = new int[1000];
+b1 = new int[1000];
+while (true) {
+	if (cur1 % 2 != 0) {
+		b[cur1] = 11;
+		b1[cur1] = 14;
+	}
+	else {
+		b[cur1] = 15;
+		b1[cur1] = 15;
+	}
+	if (cur == 10) {
+		a[cur - 1] = 15;
+		cur = 0;
+	}
+	else {
+		a[cur] = 12;
+		a[cur + 1] = 12;
+		a[cur + 2] = 12;
+		a[cur - 1] = 15;
+		++cur;
+	}
+	color(b[cur1]);
+	Line1();
+	color(b1[cur1]);
+	Line2();
+	color(a[0]);
+	C();
+	color(a[1]);
+	R();
+	color(a[2]);
+	O();
+	color(a[3]);
+	S();
+	color(a[4]);
+	S1();
+	color(a[5]);
+	R1();
+	color(a[6]);
+	O1();
+	color(a[7]);
+	A();
+	color(a[8]);
+	D();
+	++cur1;
+	this_thread::sleep_for(chrono::milliseconds(50));
+}

@@ -1,0 +1,23 @@
+Nếu chạy ko đc
+sudo apt-gct install gcc-multilib
+
+./driver.pl mà ko đc thì perl driver.pl
+
+make (chạy file)
+./btest (chạy thử)
+./dlc bits.c -e (hiện các operators/lỗi)
+./driver.pl (bảng điểm)
+
+kỹ thuật masking
+!đảo logic
+!0 = 1
+!các số còn lại = 0
+~đảo bit (0100~1011)
+
+cách nộp bài:
+tuần đầu đủ 9 bài là đc
+nộp mỗi file bits.c -> MSSV.c (chỉ nộp 1 file duy nhất)
+
+disass
+in gt tại thanh ghi: x $rbp-0xc
+xem thông tin (coi chứa gt gì): info registers edx

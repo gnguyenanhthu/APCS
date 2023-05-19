@@ -1,0 +1,4 @@
+﻿  Fstream.cpp
+d:\apcs\c++ practice\text file\text file\fstream.cpp(42): warning C4715: 'isprime': not all control paths return a value
+  Text file.vcxproj -> D:\APCS\C++ Practice\Text file\Debug\Text file.exe
+  Text file.vcxproj -> D:\APCS\C++ Practice\Text file\Debug\Text file.pdb (Partial PDB)

@@ -1,0 +1,24 @@
+.section .data #initialized data
+.LCB: .string "Hello world\n"
+
+.section .bss #uninitialized data
+
+.section .text #asm code
+global
+main:
+#asm code hello
+subq	$8, %rsp //rdi -> dia chi cua chuoi string
+leaq	.LCB(%rip), %rdi
+call	printf@plt
+movl	$0, %eax
+addq	$8, %rsp
+ret
+
+//cach chay
+gcc -o mycode mycode.s
+./mycode
+
+
+
+
+
